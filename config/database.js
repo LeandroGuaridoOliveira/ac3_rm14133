@@ -1,9 +1,9 @@
-//importar o mongoose 
+//importar o mongoose
 const mongoose = require('mongoose')
-//script de conexao
+//scripts de conexão
 const conn = async()=>{
-    const atlas = await mongoose.connect('mongodb+srv://UserAdmin:14133@ac1-2tri.xb0bm.mongodb.net/test')
+    const atlas = await mongoose.connect('[SUA DB]')
 }
 
-//exportar as informações para acesso externo
-module.exports = conn
+//exportar as infomações para acesso externo
+module.exports = conn 
